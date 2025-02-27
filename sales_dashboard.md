@@ -1,5 +1,4 @@
 # **Comprehensive Sales Dashboard: SQL, Excel, and Tableau**
-(Images currently being added) 
 ## **Overview**
 This project demonstrates the end-to-end process of creating a **comprehensive sales dashboard** using **SQL, Excel, and Tableau**. The dashboard is designed to help the executive team at a **bicycle retail company** gain insights into **sales performance** from **2016 to 2018**. The primary focus is to provide key metrics such as:
 
@@ -73,6 +72,8 @@ GROUP BY
     sto.store_name,
     CONCAT(sta.first_name, ' ', sta.last_name);
 ```
+![SQL table](./images/SQLtable.JPG)
+
 ### **Key Data Extracted**
 - Order ID, customer details, and location.
 - Sales volume and revenue per order.
@@ -84,6 +85,9 @@ GROUP BY
 ### **Importing SQL Data into Excel**
 - Connect Excel to the **SQL Server database** to **automate updates**.
 - Load the SQL query results directly into an Excel worksheet.
+
+![Excel Table](./images/ExcelTable1.PNG)
+
 
 ### **Building Pivot Tables and Charts**
 - **Revenue per year** → Clustered column chart.
@@ -102,6 +106,11 @@ Slicers allow management to filter data dynamically by:
 ### **Final Touches**
 - Remove gridlines and borders for a **clean, professional look**.
 - Adjust fonts, colors, and layout for **easy readability**.
+- Bringing it all together in an Executive Dashboard
+
+![Excel Table](./images/ExecDashExcel.PNG)
+![Excel Table](./images/ExecDashExcel2.PNG)
+
 
 ---
 
@@ -112,11 +121,17 @@ Slicers allow management to filter data dynamically by:
 
 ### **Building Key Visualizations**
 - **Revenue per Year** → Bar chart with color gradients.
+![Excel Table](./images/TabBar1.png)
 - **Revenue per Month** → Line chart with a year filter.
+![Excel Table](./images/TabLine1.png)
 - **Revenue per State** → Map chart with color shading.
+![Excel Table](./images/TabMap1.png)
 - **Revenue per Store** → Pie chart.
-- **Revenue per Brand & Category** → Pie chart & Tree map.
+![Excel Table](./images/TabPie.png)
+- **Revenue per Brand & Category** → Tree map.
+![Excel Table](./images/TabTree1.png)
 - **Top Customers & Sales Reps** → Column charts.
+![Excel Table](./images/TabCol.png)
 
 ### **Adding Interactivity**
 - **Dropdown filters** for **year and state**.
@@ -130,7 +145,7 @@ Slicers allow management to filter data dynamically by:
   - **Total orders**
   - **Unique customers**
 - The **dashboard is published** to Tableau Server, allowing management to **interact with it online**.
-
+![Excel Table](./images/Executive_Dashboard%201.JPG)
 ---
 
 ## **Conclusion**
