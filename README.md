@@ -6,7 +6,7 @@ This project demonstrates the end-to-end process of creating a **comprehensive s
 - **Top customers and sales reps**
 - **Sales trends over time**
 
-Using **SQL, Excel, and Tableau**, the data is extracted, analyzed, and visualized to create an **interactive dashboard** that makes insights easily digestible.
+Using **SQL, Excel, and Tableau**, the data is extracted, analyzed, and visualized to create an **interactive dashboard** that makes insights easily understood.
 
 ---
 
